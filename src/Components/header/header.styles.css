@@ -1,0 +1,25 @@
+.header-container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 3px 2% 0 3px;
+}
+.header-logo {
+  border: 1px solid yellow;
+  margin: 0 0 0 12px;
+}
+.header-items {
+  width: 376px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-items-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.header-authentication {
+  display: flex;
+  justify-content: space-evenly;
+}
