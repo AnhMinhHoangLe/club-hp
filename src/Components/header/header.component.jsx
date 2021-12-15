@@ -24,10 +24,10 @@ const Header = () => {
       </span>
       <span className="header-authentication">
         <Link to="/signin">
-          <Button className='signin-button' children="Sign In" />
+          <Button className="signin-button">Sign In </Button>
         </Link>
         <Link to="/signup">
-          <Button children="Sign Up" />
+          <Button className="sign-up-button">Sign Up</Button>
         </Link>
       </span>
     </div>

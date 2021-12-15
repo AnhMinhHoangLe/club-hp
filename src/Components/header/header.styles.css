@@ -17,7 +17,7 @@
   margin-left: 20%;
   align-items: center;
 
-  font-family: 'Mina', sans-serif;
+  font-family: "Mina", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -31,9 +31,11 @@
   display: flex;
   justify-content: space-evenly;
 }
-
-.signin-button{
-  font-family: 'Mina';
-  font-size: 15px;
-
+.signin-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+.sign-up-button {
+  background-color: blue !important;
+  border: none;
 }

@@ -1,11 +1,11 @@
 import React from "react";
-import "./buttons.styles.css"
+import "./buttons.styles.css";
 
-const Button = ({ children }) => {
+const Button = ({ children, ...otherProps }) => {
   return (
-    <div>
-      <button className='button'>{children}</button>
-    </div>
+    <button id="button" {...otherProps}>
+      {children}
+    </button>
   );
 };
 export default Button;
