@@ -1,28 +1,32 @@
 import React from "react";
 import sceHero from "../Images/sce-hero.png";
 import Rectangle from "./rectangle/rectangle.component";
-import Grid from "@mui/material/Grid";
+import Button from "../../buttons/buttons.component.jsx"
+import {Link} from 'react-router-dom'
+import './Hero.styles.css'
+
 
 const Hero = () => {
   return (
-    <Grid
-      container
-      spacing={2}
-      direction="column"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Grid item>
+    <div>
+      <div className='text-header'>
         <h1>Software and Computer </h1>
         <h1>Engineering Society</h1>
+      </div>
+      
+      <div className='text-content'>
         <p>Empowering students through support in academics, projects,</p>
-        <p>and professional development.</p>
-      </Grid>
-      <Grid item>
+        <p> and professional development.</p>
+      </div>
+
+      <Link to='/joinSce' className='join-sce'>
+        <Button children="Join SCE"></Button>
+      </Link>
+
+      <div className='photo'>
         <Rectangle />
-      </Grid>
-      {/* <img src={sceHero} alt="sce-hero" className="sce-hero-img" /> */}
-    </Grid>
+      </div>
+    </div>
   );
 };
 export default Hero;

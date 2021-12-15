@@ -24,7 +24,7 @@ const Header = () => {
       </span>
       <span className="header-authentication">
         <Link to="/signin">
-          <Button children="Sign In" />
+          <Button className='signin-button' children="Sign In" />
         </Link>
         <Link to="/signup">
           <Button children="Sign Up" />

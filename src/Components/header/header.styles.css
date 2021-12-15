@@ -11,9 +11,17 @@
 }
 .header-items {
   width: 376px;
-  border: 1px solid white;
+
   display: flex;
   justify-content: space-evenly;
+  margin-left: 20%;
+  align-items: center;
+
+  font-family: 'Mina', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 32px;
 }
 .header-items-link {
   color: inherit;
@@ -22,4 +30,10 @@
 .header-authentication {
   display: flex;
   justify-content: space-evenly;
+}
+
+.signin-button{
+  font-family: 'Mina';
+  font-size: 15px;
+
 }

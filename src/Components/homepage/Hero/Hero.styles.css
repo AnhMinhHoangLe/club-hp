@@ -1,0 +1,23 @@
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.text-content {
+    font-family: 'Mina', sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 15px;
+    line-height: 10px;
+    padding: 10px 0 0 0;
+}
+
+.text-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 60px 0 0 0;
+
+    
+    
+}
