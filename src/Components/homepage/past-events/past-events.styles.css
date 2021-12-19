@@ -1,0 +1,21 @@
+.events-rectangle {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    overflow: hidden;
+    width: 50%;
+    height: 642px;
+  
+    /* background: #1b1b1b; */
+    /* box-sizing: border-box; */
+    /* box-shadow: 17px 17px 5px rgba(14, 15, 16, 0.77);
+    border-radius: 15px; */
+    border: 1px red solid; 
+  }
+  .tabs{
+    background-color: white;
+    color: red;
+}
+
+  

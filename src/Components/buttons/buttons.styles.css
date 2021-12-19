@@ -1,10 +1,11 @@
 #button {
   /* background-color: transparent; */
-  color: white;
+  /*color: white;
   /* border: 1px solid #ffffff; */
   border-radius: 10px;
   width: 137px;
   height: 54px;
   margin-left: 40px;
   font-family: "Mina";
+  font-size: 16px;
 }

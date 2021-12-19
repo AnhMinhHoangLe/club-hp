@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 import sceHero from "../../Images/sce-hero.png";
-import logo from "../../Images/sce-logo.png";
+import logo from "../../Images/header-logo.png";
 // import Circles from "../circles/circle.component.jsx"
 import "./rectangle.styles.css";
 

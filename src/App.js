@@ -1,4 +1,5 @@
 import "./styles.css";
+
 import Header from "./Components/header/header.component";
 import About from "./Components/about/about.component";
 import Events from "./Components/events/events.component";
@@ -6,9 +7,7 @@ import Services from "./Components/services/services.component";
 import HomePage from "./Components/homepage/homepage.component";
 import signUp from "./Components/sign-up/signup.component";
 import JoinSCE from "./Components/join-sce-button/joinsce.component"
-
 import React from 'react';
-
 import { Switch, Route } from "react-router-dom";
 import signIn from "./Components/sign-in/signin.component";
 

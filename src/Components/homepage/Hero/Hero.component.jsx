@@ -19,8 +19,8 @@ const Hero = () => {
         <p> and professional development.</p>
       </div>
 
-      <Link to='/joinSce' className='join-sce'>
-        <Button children="Join SCE"></Button>
+      <Link to='/joinSce'>
+        <Button className='join-sce'>Join SCE</Button>
       </Link>
 
       <div className='photo'>
